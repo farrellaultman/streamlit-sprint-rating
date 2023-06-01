@@ -23,7 +23,7 @@ def calculate_overall_rating():
     points += response / 5.0
     
     # Question 5
-    response = st.slider("On a scale of 1 to 5, what is your overall sprint rating for team?", 1, 5, step=1, value=1)
+    response = st.slider("On a scale of 1 to 5, what is your overall sprint rating for your team?", 1, 5, step=1, value=1)
     points += response / 5.0
     
     # Bonus question
